@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  #output {
+    margin-top: 20px;
+  }
+
+
+
+
+
+
+
+  
+  
+  .drop-area {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f4f4f9;
+    cursor: pointer;
+  }
+  
+  .drop-area:hover {
+    background-color: #e8f0fe;
+  }
+  
+  .drop-area p {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  #file-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  #file-list li {
+    margin: 5px 0;
+    padding: 8px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+
+  .drop-area {
+    border: 2px dashed #007bff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #f4f4f9;
+    cursor: pointer;
+  }
+  
+  .drop-area:hover {
+    background-color: #e8f0fe;
+  }
+  
+  .drop-area p {
+    margin: 0;
+    color: #007bff;
+  }
+  
+  #split-file-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  #split-file-list li {
+    margin: 5px 0;
+    padding: 8px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #split-file-list li button {
+    background-color: #ff4d4d;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #split-file-list li button:hover {
+    background-color: #ff3333;
+  }
+  
